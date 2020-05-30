@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+:root {
+  --primaryColor: #f09d51;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: "Lato", sans-serif;
+}
+
+.hero {
+  min-height: calc(100vh - 60px);
+  /*background: url("webapp/home.png") center/cover no-repeat;*/ 
+ background:  var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row{
+    display: flex; 
+}
+
+
+.banner {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.5rem;
+  flex : 50%;    
+}
+
+label
+{
+padding-left:10px;     
+width: 4em;
+float: left;
+text-align:left;
+margin-right: 0.5em;
+display: block
+}
+
+.submit input
+{    
+align-content: center;
+}
+input
+{
+color: #781351;
+background: #fee3ad;
+border: 1px solid #781351
+}
+
+.submit input
+{
+color: var(--mainBlack);
+background: var(--primaryColor);
+border: 2px outset #d7b9c9
+s    
+}
+fieldset
+{
+border: 1px solid #781351;
+width: 20em
+}
+
+legend
+{    
+color: var(--mainBlack);
+background:var(--primaryColor) ;
+border: 1px solid #781351;
+padding: 2px 6px
+}
+.form-format{
+    padding: inherit;
+    margin: inherit;
+
+    
+}
